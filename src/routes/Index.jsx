@@ -8,12 +8,12 @@ const Index = () => {
       </div>
 
       <div className="container d-flex flex-wrap justify-content-between">
-      <CourseCard />
-      <CourseCard />
-      <CourseCard />
-      <CourseCard />
+        
+        <CourseCard />
+        <CourseCard />
+        <CourseCard />
+        <CourseCard />
       </div>
-      
     </>
   );
 };
