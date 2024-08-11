@@ -1,59 +1,56 @@
 {
-    "admins": [
-        {
-            "id": 1000000,
-            "name": "Super Admin",
-            "email": "admin@gmail.com",
-            "password": "admin"
-        }
-    ],
-    "courses": [
-        {
-            "id": 1,
-            "name": "HTML & CSS",
-            "fees": 100,
-            "active": true
-        },
-        {
-            "id": 2,
-            "name": "JavaScript",
-            "fees": 150,
-            "active": true
-        },
-        {
-            "id": 3,
-            "name": "React",
-            "fees": 200,
-            "active": false
-        },
-        {
-            "id": 4,
-            "name": "Database",
-            "fees": 120,
-            "active": true
-        }
-    ],
-   
-    "students": [
-        {
-            "id": 1000,
-            "name": "Ahmad Alaa",
-            "age": 20,
-            "email": "ahmad.alaa@gmail.com",
-            "password": "admin",
-            "courses": [
-                1, 2
-            ]
-        },
-        {
-            "id": 1001,
-            "name": "Mahmoud Ali",
-            "age": 21,
-            "email": "mahmoud.ali@gmail.com",
-            "password": "admin",
-            "courses": [
-                4
-            ]
-        }
-    ]
+  "admins": [
+    {
+      "id": 1000000,
+      "name": "Super Admin",
+      "email": "admin@gmail.com",
+      "password": "admin"
+    }
+  ],
+  
+  "courses": [
+    {
+      "id": 1,
+      "name": "HTML & CSS",
+      "fees": 100,
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "JavaScript",
+      "fees": 150,
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "React",
+      "fees": 200,
+      "active": false
+    },
+    {
+      "id": 4,
+      "name": "Database",
+      "fees": 120,
+      "active": true
+    }
+  ],
+
+  "students": [
+    {
+      "id": 1000,
+      "name": "Ahmad Alaa",
+      "age": 20,
+      "email": "ahmad.alaa@gmail.com",
+      "password": "admin",
+      "courses": [1, 2]
+    },
+    {
+      "id": 1001,
+      "name": "Mahmoud Ali",
+      "age": 21,
+      "email": "mahmoud.ali@gmail.com",
+      "password": "admin",
+      "courses": [4]
+    }
+  ]
 }

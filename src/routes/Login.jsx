@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 const Login = () => {
   return (
     <>
-      <div class="d-flex justify-content-center my-4">
+      <div className="d-flex justify-content-center my-4">
         <h1>Log In</h1>
       </div>
 
@@ -17,7 +17,7 @@ const Login = () => {
           <Form.Group className="mb-3" as={Col} controlId="formGridPassword">
             <Form.Control type="password" placeholder="Password" />
           </Form.Group>
-          <div class="d-flex justify-content-center my-4">
+          <div className="d-flex justify-content-center my-4">
             <Button type="submit">Submit</Button>
           </div>
         </Form>

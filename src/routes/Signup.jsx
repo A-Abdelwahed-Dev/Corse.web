@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 const Signup = () => {
   return (
     <>
-      <div class="d-flex justify-content-center my-4">
+      <div className="d-flex justify-content-center my-4">
         <h1>Sign Up</h1>
       </div>
 
@@ -28,7 +28,7 @@ const Signup = () => {
             <Form.Control type="password" placeholder="Password" />
           </Form.Group>
 
-          <div class="d-flex justify-content-center my-4">
+          <div className="d-flex justify-content-center my-4">
             <Button type="submit">Submit</Button>
           </div>
         </Form>

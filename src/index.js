@@ -6,6 +6,7 @@ import Root from './routes/Root';
 import Signup from './routes/Signup';
 import Index from './routes/Index';
 import Login from './routes/Login';
+import Course from './routes/Course'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const routes = createBrowserRouter([
@@ -20,6 +21,10 @@ const routes = createBrowserRouter([
       {
         path: "Login",
         element: <Login />
+      },
+      {
+        path: "Course",
+        element: <Course />
       }
 
     ]

@@ -11,7 +11,7 @@ export default class Header extends Component {
         <Container>
           <Navbar.Brand>
             <Link to="/" className="text-white text-decoration-none">
-              Cousre.web
+              Course.web
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle />
