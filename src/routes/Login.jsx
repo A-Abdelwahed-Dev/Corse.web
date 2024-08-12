@@ -1,7 +1,38 @@
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import { useState } from "react";
 const Login = () => {
+  // const data = {
+  //   admins: [
+  //     {
+  //       id: 1000000,
+  //       name: "Super Admin",
+  //       email: "admin@gmail.com",
+  //       password: "admin",
+  //     },
+  //   ],
+
+  //   students: [
+  //     {
+  //       id: 1000,
+  //       name: "Ahmad Alaa",
+  //       age: 20,
+  //       email: "ahmad.alaa@gmail.com",
+  //       password: "admin",
+  //       courses: [1, 2],
+  //     },
+  //     {
+  //       id: 1001,
+  //       name: "Mahmoud Ali",
+  //       age: 21,
+  //       email: "mahmoud.ali@gmail.com",
+  //       password: "admin",
+  //       courses: [4],
+  //     },
+  //   ],
+  // };
+
   return (
     <>
       <div className="d-flex justify-content-center my-4">
