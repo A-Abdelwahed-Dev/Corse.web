@@ -1,36 +1,8 @@
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import { useFormik} from "formik"
 const Login = () => {
-  // const data = {
-  //   admins: [
-  //     {
-  //       id: 1000000,
-  //       name: "Super Admin",
-  //       email: "admin@gmail.com",
-  //       password: "admin",
-  //     },
-  //   ],
-
-  //   students: [
-  //     {
-  //       id: 1000,
-  //       name: "Ahmad Alaa",
-  //       age: 20,
-  //       email: "ahmad.alaa@gmail.com",
-  //       password: "admin",
-  //       courses: [1, 2],
-  //     },
-  //     {
-  //       id: 1001,
-  //       name: "Mahmoud Ali",
-  //       age: 21,
-  //       email: "mahmoud.ali@gmail.com",
-  //       password: "admin",
-  //       courses: [4],
-  //     },
-  //   ],
-  // };
 
   return (
     <>
@@ -39,7 +11,7 @@ const Login = () => {
       </div>
 
       <div className="m-5">
-        <Form>
+        <Form >
           <Form.Group as={Col} controlId="formGridEmail" className="mb-3">
             <Form.Control type="email" placeholder="Enter email" />
           </Form.Group>

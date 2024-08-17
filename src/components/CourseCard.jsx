@@ -11,7 +11,6 @@ export default class CourseCard extends Component {
         <Card className="mb-3" style={{ width: "18rem" }}>
           <Card.Img
             variant="top"
-            style={{ height: "10rem" }}
             src={this.props.img}
           />
           <Card.Body>
