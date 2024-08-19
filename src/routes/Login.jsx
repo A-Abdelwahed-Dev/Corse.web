@@ -4,7 +4,34 @@ import Button from "react-bootstrap/Button";
 import { useFormik } from "formik"
 import * as Yup from 'yup';
 const Login = () => {
-
+  const users = {
+    "admins": [
+      {
+        "id": 1000000,
+        "name": "Super Admin",
+        "email": "admin@gmail.com",
+        "password": "admin"
+      }
+    ],
+    "students": [
+      {
+        "id": 1000,
+        "name": "Ahmad Alaa",
+        "age": 20,
+        "email": "ahmad.alaa@gmail.com",
+        "password": "admin",
+        "courses": [1, 2]
+      },
+      {
+        "id": 1001,
+        "name": "Mahmoud Ali",
+        "age": 21,
+        "email": "mahmoud.ali@gmail.com",
+        "password": "admin",
+        "courses": [4]
+      }
+    ]
+  }
   const LoginSchema = Yup.object().shape({
     email: Yup.string().email('Invalid email').required('Required'),
     password: Yup.string().min(8, "Password must be at least 8 characters long").required("Please enter your password")
@@ -17,7 +44,8 @@ const Login = () => {
     validationSchema: LoginSchema,
     onSubmit: (values) => {
       alert(JSON.stringify(values, null, 2))
-    }
+    },
+
   })
   return (
     <>
@@ -45,7 +73,7 @@ const Login = () => {
             />
           </Form.Group>
           <div className="d-flex justify-content-center my-4">
-            <Button type="submit">Submit</Button>
+            <Button type="submit" >Submit</Button>
           </div>
         </Form>
       </div>
